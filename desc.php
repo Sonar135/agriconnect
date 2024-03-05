@@ -111,7 +111,7 @@ if(isset($_GET["greater"])){
 
 <?php
     $related="";
-    $get_related=mysqli_query($conn, "SELECT * from item where category='$category' order by rand() limit 4");
+    $get_related=mysqli_query($conn, "SELECT * from item where category='$category' and id!='$id' order by rand() limit 4");
 
 
     while($row=mysqli_fetch_assoc($get_related)){

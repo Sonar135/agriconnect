@@ -36,7 +36,7 @@
 <body>
 
 <div class="loader">
-  <img src="images\orange_loading-removebg-preview.png" alt="">
+  <img src="images\1-removebg-preview.png" alt="">
 </div>
 
 <form action="" method="post"> <div class="search_cont">
