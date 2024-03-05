@@ -21,6 +21,7 @@ $(window).on("load resize ", function() {
 
     $(".search_btn").click(()=>{
         $(".search_cont").toggleClass("search_cont_active");
+        $("#my_input").focus()
     })
     
     
